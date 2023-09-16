@@ -38,6 +38,7 @@ breakfastMeal.addDrink('Coke');
 const { side, price, description: bestMeal } = breakfastMeal;
 breakfastMeal.side;
 console.log(side);
+console.log(bestMeal);
 
 const newBreakfast = { ...breakfastMeal };
 
